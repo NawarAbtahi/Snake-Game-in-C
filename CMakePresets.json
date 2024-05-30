@@ -1,0 +1,12 @@
+{
+  "version" : 3,
+  "configurePresets" : [
+    {
+      "name" : "debug",
+      "toolchainFile" : "C:\\Users\\user\\vcpkg\\scripts\\buildsystems\\vcpkg.cmake",
+      "cacheVariables" : {
+        "VCPKG_TARGET_TRIPLET" : "x64-windows-static"
+      }
+    }
+  ]
+}

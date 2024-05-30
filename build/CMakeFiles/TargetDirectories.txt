@@ -1,0 +1,3 @@
+F:/.programming,image,vid/.programming/snakeInC/build/CMakeFiles/Mygame.dir
+F:/.programming,image,vid/.programming/snakeInC/build/CMakeFiles/ALL_BUILD.dir
+F:/.programming,image,vid/.programming/snakeInC/build/CMakeFiles/ZERO_CHECK.dir

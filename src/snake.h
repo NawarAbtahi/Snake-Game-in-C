@@ -1,0 +1,4 @@
+#define SNAKE_BODY_SIZE 20
+#define SNAKE_INITIAL_STATE 5
+#define SNAKE_SPEED 15
+#define FOOD_SIZE 20

@@ -1,0 +1,10 @@
+^F:\.PROGRAMMING,IMAGE,VID\.PROGRAMMING\SNAKEINC\BUILD\CMAKEFILES\0D18050293D3C44450995778B9B9D489\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/.programming,image,vid/.programming/snakeInC -BF:/.programming,image,vid/.programming/snakeInC/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/.programming,image,vid/.programming/snakeInC/build/Mygame.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
